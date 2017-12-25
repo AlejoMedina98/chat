@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: #ecf0f1;
+}
+
+div#messages {
+    height: 90%;
+    overflow-y: scroll;
+    border: 5px solid #1abc9c;
+}
+div.message {
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #2ecc71;
+    background: white;
+    font-size: .8em;
+    height: auto;
+}
+
+div.message div#header {
+    height: 10px;
+    margin: 5px;
+}
+
+div.message div#content {
+    height: auto;
+    margin: 0px 0px 5px 5px;
+}
+
+div.message div#content p{
+    margin: 0px;
+}
+
+div.message div#time {
+    height: 10px;
+    margin: 0px 0px 5px 5px;
+}
+
+div#form {
+    width: 100%;
+    height: 10%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
